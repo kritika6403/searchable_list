@@ -90,6 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                    }
                  },
                  onEditingComplete: (){
+                   _searchlist.clear();
                    if(searchController.text.isNotEmpty) {
 
                      _list.forEach((element) {
